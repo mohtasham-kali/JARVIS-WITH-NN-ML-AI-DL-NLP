@@ -1,0 +1,58 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello", "hi", "hey", "wake up", "jarvis"],
+            "responses":["Hello sir", "How Are You Sir.", "Always here for You sir", "Hello", "Here's Your Assistant."]
+        },
+
+        {
+            "tag":"bye",
+            "patterns":["bye", "good bye", "see you later", "sleep", "exit"],
+            "responses":["Bye.", "I am Going.", "Baye Sir.", "Good Bye", "It'll be Nice To Meet You Again.", "See You Later"]
+
+        },
+
+        {
+            "tag":"health",
+            "patterns":["how are you", "are you fine", "are you good"],
+            "responses":["Fine", "Perfect", "Cool", "Great", "I am good"]
+        },
+
+        {
+            "tag":"identity",
+            "patterns":["your name", "What is your name", "who are you", "what's your name"],
+            "responses":["Jarvis", "my name is Jarvis", "An AI Assistant Created By Mr. Mohtasham Ahmed Siddiqui.", "I am Jarvis", "you can call me jarvis"]
+        },
+        {
+            "tag":"time",
+            "patterns":["What time is it", "What's the time", "can tell me the time", "time"],
+            "responses":["time"]
+        },
+
+        {
+            "tag":"date",
+            "patterns":["What is the date today", "What's the date", "can tell me the date", "date"],
+            "responses":["date"]
+        },
+
+        {
+            "tag":"day",
+            "patterns":["What is the day today", "What's the day", "can tell me the day", "day"],
+            "responses":["day"]
+        },
+
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","who's", "about", "what is","what's","on wikipedia", "wikipedia"],
+            "responses":["wikipedia"]
+        },
+
+        {
+            "tag":"google",
+            "patterns":["google", "search", "search on google", "search for"],
+            "responses":["google"]
+        }
+        
+    ]
+}
