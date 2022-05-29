@@ -1,8 +1,8 @@
-import re
+
 import speech_recognition as sr # pip install speechrecognition
 
 def Listen():
-    r = sr.Recogizer()
+    r = sr.Recognizer()
 
 
     with sr.Microphone() as source:
