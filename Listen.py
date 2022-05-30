@@ -7,13 +7,13 @@ def Listen():
 
     with sr.Microphone() as source:
         print("Listening...")
-        r.pause_threshold = 1
-        audio = r.listen(source,0,4)
+        r.pause_threshold = 2
+        audio = r.listen(source,0,5)
 
 
     try:
         print("Recogizing...")
-        query = r.recogize_google(audio, language="en-us")
+        query = r.recogize_google(audio, language="en-in")
         print(f"You Said : {query}")
 
     except:

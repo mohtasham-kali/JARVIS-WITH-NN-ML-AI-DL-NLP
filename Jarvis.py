@@ -3,8 +3,8 @@ import json
 import torch
 from Brain import NeuralNet
 from NeuralNetwork import bag_of_words, tokenize
-from Listen import Listen
-from Speak import Say
+from Listen import *
+from Speak import *
 from Task import NonInputExecution
 from Task import InputExecution
 
@@ -30,7 +30,7 @@ model.eval()
 
 # ----------
 
-Name = "jarvis 2.0"
+Name = "jarvis"
 
 
 def Main():
